@@ -21,7 +21,7 @@ contract PriceFeed {
 
     /// @dev Initializes the contract with base amount
     constructor() {
-        baseAmount = 1e6;
+        baseAmount = 1e18;
         isOwner[msg.sender] = true;
     }
 
